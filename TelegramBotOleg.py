@@ -3,7 +3,7 @@ import telebot
 import pyowm
 from datetime import datetime
 
-bot = telebot.TeleBot("1923978925:AAHQKEfhzCst7OV4fB_yVQ70RUEPQwNjPw4")
+bot = telebot.TeleBot("TOKEN")
 owm=pyowm.OWM('7511e2e4086c7ea3203db8008673826a', language = 'ru')
 
 try:
